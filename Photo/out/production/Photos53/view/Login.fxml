@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="542.0" prefWidth="482.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.LoginController">
+   <children>
+      <BorderPane layoutX="-207.0" layoutY="-151.0" prefHeight="303.0" prefWidth="337.0" />
+      <Text layoutX="86.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Photo Library" textAlignment="CENTER" wrappingWidth="309.21875">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Text>
+      <Text layoutX="144.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Login">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Text>
+      <TextField fx:id="userNameTextField" layoutX="223.0" layoutY="252.0" prefHeight="39.0" prefWidth="229.0" promptText="username" />
+      <Text layoutX="26.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+      <Button fx:id="loginButton" layoutX="61.0" layoutY="401.0" mnemonicParsing="false" text="Login">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="newUserButton" layoutX="147.0" layoutY="401.0" mnemonicParsing="false" text="New User? Create a New Account!">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
